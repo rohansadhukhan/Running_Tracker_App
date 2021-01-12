@@ -2,8 +2,10 @@ package com.example.runningtrackerapp.di
 
 import android.content.Context
 import androidx.room.Room
+import com.example.runningtrackerapp.database.RunDao
 import com.example.runningtrackerapp.database.RunningDatabase
 import com.example.runningtrackerapp.other.Constants.RUNNING_DATABASE_NAME
+import com.example.runningtrackerapp.repository.MainRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

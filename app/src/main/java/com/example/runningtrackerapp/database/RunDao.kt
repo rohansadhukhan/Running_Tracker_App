@@ -19,7 +19,7 @@ interface RunDao {
     fun getAllRunSortedByTimeInMillis(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY averageSpeed DESC")
-    fun getAllRunSortedByRunTime(): LiveData<List<Run>>
+    fun getAllRunSortedByAverageSpeed(): LiveData<List<Run>>
 
     @Query("SELECT * FROM running_table ORDER BY distance DESC")
     fun getAllRunSortedByDistance(): LiveData<List<Run>>
