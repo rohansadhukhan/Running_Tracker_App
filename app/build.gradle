@@ -6,14 +6,15 @@ plugins {
     id "androidx.navigation.safeargs.kotlin"
     id 'dagger.hilt.android.plugin'
 }
+
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "30.0.2"
 
     defaultConfig {
         applicationId "com.example.runningtrackerapp"
-        minSdkVersion 23
-        targetSdkVersion 29
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
 
